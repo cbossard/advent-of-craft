@@ -48,3 +48,6 @@ build/
 bin/
 Obj/
 *.user
+
+### Typescript
+node_modules/
