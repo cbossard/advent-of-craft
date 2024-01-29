@@ -1,3 +1,4 @@
+import { isAfter } from 'date-fns';
 
 export class Food {
     expirationDate: Date;
@@ -11,7 +12,7 @@ export class Food {
     }
 
     isEdible(now: Date): boolean {
-        if (this.expirationDate > now &&
+        if (isAfter(this.expirationDate, now) &&
             this.approvedForConsumption &&
             this.inspectorId != null) {
             return true;

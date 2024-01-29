@@ -1,5 +1,5 @@
 {
-  "name": "day01",
+  "name": "dojos",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,13 +10,20 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/jest": "^26.0.0",
-    "jest": "^26.0.1",
-    "ts-jest": "^26.1.0",
-    "ts-node": "^10.9.2",
-    "typescript": "^3.9.5"
+    "@babel/core": "^7.23.7",
+    "@babel/preset-env": "^7.23.8",
+    "@babel/preset-typescript": "^7.23.3",
+    "@jest/globals": "^29.7.0",
+    "@types/jest": "^29.5.11",
+    "babel-jest": "^29.7.0",
+    "fast-check": "^3.15.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.3.3"
   },
   "dependencies": {
-    "npm": "^10.4.0"
+    "date-fns": "^3.2.0",
+    "lodash": "^4.17.21",
+    "uuid": "^9.0.1"
   }
 }
